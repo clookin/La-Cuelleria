@@ -1,0 +1,44 @@
+.nav_logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  /* background-color: rgba(4, 4, 4, 0.387); */
+  /* color: white; */
+  font-size: large;
+
+}
+.nav-img img{
+  width: 160px;
+  margin-top: 4rem;
+  filter: drop-shadow(0px 7px 3px rgba(0, 0, 0, 0.7));
+}
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  width: 13rem;
+  text-decoration: none;
+  list-style: none;
+  position: relative;
+}
+.nav-menu-l{
+  margin-right: 23vw;
+}
+.nav-menu-r{
+  margin-left: 15vw;
+  margin-right: 2rem;
+}
+.nav-menu-li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-li-hr{
+  position: absolute;
+  bottom: -10px;
+  width: 3rem;
+}
+.link{
+  text-decoration: none;
+  color: black;
+}
