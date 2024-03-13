@@ -6,10 +6,13 @@ import Contacto from "./Pages/Contacto";
 import Nosotros from "./Pages/Nosotros";
 import Productos from "./Pages/Productos";
 import Inicio from "./Pages/Inicio";
+import { MenuProvider } from "./Contexto/MenuContext";
 function App() {
   return (
     <div>
       <BrowserRouter>
+
+      <MenuProvider>
         <Background />
         <Navbar />
         <Routes>
@@ -20,6 +23,7 @@ function App() {
             <Route path=":productId" element={<Productos/>}/>
           </Route>
         </Routes>
+      </MenuProvider>
       </BrowserRouter>
     </div>
   );
