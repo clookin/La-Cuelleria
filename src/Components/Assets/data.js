@@ -1,32 +1,32 @@
-import p1_img from './product_1.png'
-import p2_img from './product_2.png'
-import p3_img from './product_3.png'
-import p4_img from './product_4.png'
+import p1_img from './Cuelleria/cuello1.png'
+import p2_img from './Cuelleria/cuello2.png'
+import p3_img from './Cuelleria/cuello3.png'
+import p4_img from './Cuelleria/cuello4.png'
 
 let data_product = [
   {
     id:1,
-    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name:"Balaclava Rokie ",
     image:p1_img,
-    new_price:50.00,
+    new_price:14000,
     old_price:80.50,
   },
   {id:2,
-    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name:"Balaclava Demolish",
     image:p2_img,
-    new_price:85.00,
+    new_price:18000,
     old_price:120.50,
   },
   {id:3,
-    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name:"Balaclava Bumper",
     image:p3_img,
-    new_price:60.00,
+    new_price:14000,
     old_price:100.50,
   },
   {id:4,
-    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name:"Pack Duo Balaclava Demolish",
     image:p4_img,
-    new_price:100.00,
+    new_price:32000,
     old_price:150.00,
   },
 ];

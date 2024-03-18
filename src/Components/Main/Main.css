@@ -49,7 +49,6 @@
   }
 }
 .main-izq-subtitulo{
-/* background-color: red; */
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -76,14 +75,6 @@ padding-top: 1rem;
     }
   }
 }
-
-
-
-
-
-
-
-
 .main-der{
   width: 40vw;
   height: 70vh;
