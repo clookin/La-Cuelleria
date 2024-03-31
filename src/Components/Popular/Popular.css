@@ -7,8 +7,9 @@
   height: 80vh;
 }
 .popular h2{
-  border-bottom: 2px solid rgb(0, 0, 0);
+  color: rgb(91, 89, 89);
   font-size: 40px;
+  font-weight: bold;
 }
 .popular-item{
   width: 100%;

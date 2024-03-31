@@ -3,10 +3,11 @@ import './Item.css'
 const Item = (props) => {
   return (
     <div className='item'>
-        <strong>{props.name}</strong>
       <img src={props.image} alt=""/>
+        <strong>{props.name}</strong>
       <div className='item-info'>
         <p>Precio: ${props.newPrice}</p>
+        <button>Ver Producto</button>
       </div>
     </div>
   )

@@ -24,36 +24,12 @@
   color: rgb(218, 133, 133);
   line-height: 53px;
 }
-.giro:hover{
-  animation: rotate-center 1s ease-in-out both;
-  -webkit-animation: rotate-center 1s ease-in-out both;
-}
-@-webkit-keyframes rotate-center {
-  0% {
-    -webkit-transform: rotate(0);
-            transform: rotate(0);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-@keyframes rotate-center {
-  0% {
-    -webkit-transform: rotate(0);
-            transform: rotate(0);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
 .main-izq-subtitulo{
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: space-between;
-height: 10rem;
+height: 13rem;
 font-size: 20px;
 padding-top: 1rem;
 }
@@ -62,7 +38,7 @@ padding-top: 1rem;
   flex-direction: column;
   align-items: center;
   & button{
-    width: 100px;
+    width: 120px;
     height: 40px;
     border-radius: 5px;
     background-color: transparent;

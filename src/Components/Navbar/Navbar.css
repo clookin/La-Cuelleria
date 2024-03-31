@@ -36,7 +36,9 @@
 .nav-li-hr{
   position: absolute;
   bottom: -10px;
-  width: 3rem;
+  width: 4rem;
+  background-color: black;
+  height: 2px;
 }
 .link{
   text-decoration: none;
