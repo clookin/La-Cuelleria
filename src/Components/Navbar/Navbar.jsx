@@ -1,7 +1,6 @@
 import React, { useContext} from 'react'
 import './Navbar.css'
 import logo from '../Assets/logo.png'
-import cart_icon from '../Assets/cart_icon.png'
 import { Link } from 'react-router-dom'
 import { MenuContext } from '../../Contexto/MenuContext'
 const Navbar = () => {
@@ -24,7 +23,6 @@ const Navbar = () => {
           <li className='nav-menu-li' onClick={()=> {setMenu("contacto")}}><Link className='link' to='/contacto'>Contacto</Link>{menu==="contacto"?<hr className='nav-li-hr'/>:<></>}</li>
         </ul>
         <div>
-        <img src={cart_icon} alt=""/>
         </div>
       </div>
     </div>
