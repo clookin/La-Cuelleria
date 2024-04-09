@@ -17,29 +17,14 @@ const Productos = () => {
               <h5>Estos son nuestos productos, puedes filtrar segun lo que estes buscando</h5>
             </div>
             <select name="select" id="select" onChange={handleChange}>
-              <option value="todos">todos</option>
-              <option value="men" >Hombre</option>
-              <option value="women">Mujer</option>
-              <option value="kid">ninio</option>
+              <option value="todos">Todos</option>
+              <option value="cuello" >Cuellos</option>
+              <option value="balaclava">Balaclava</option>
+              <option value="accesorio">Accesorios</option>
             </select>
           </div>
         </section>
         <section className="productos_seccion-productos">
-          {/* {productos.map((item, i) => {
-            if (item.category === valor || valor === 'todos') {
-              return (
-                <Item
-                  key={i}
-                  id={item.id}
-                  name={item.name}
-                  image={item.image}
-                  newPrice={item.new_price}
-                />
-              );
-            } else {
-              console.log("nosirvo");
-            }
-          })} */}
           {productos.filter(item => item.category === valor || valor === 'todos').map((item) => (
   <Item
     key={item.id}

@@ -28,11 +28,11 @@
   .item img{
     width: 150px;
     aspect-ratio: 3/4;
-    object-fit: cover;
+    object-fit:contain;
     align-self: center;
     margin-bottom: 20px;
     filter: drop-shadow(5px 10px 10px #b9b0b0);
-    overflow: hidden;
+    /* overflow: hidden; */
     transition: 0.3s ease-in;
   }
   .item img:hover{
